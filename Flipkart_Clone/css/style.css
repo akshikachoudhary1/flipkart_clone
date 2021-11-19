@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body{
+     font-family: 'Roboto', sans-serif;
+     text-decoration: none;
+     background: #f1f3f6;
+     min-height: 140vh; 
+ }
+ .none{
+     display: none ;
+ }
+ .flex{
+     display:flex ;
+ }
+ .fa{
+     margin: 0px 4px;
+
+ }
+
+ .fa-angle-down{
+     font-weight: lighter;
+     margin: 0px;
+ }
+
+ .fa-user{
+     border-radius: 50%;
+ }
+
+ .nav_heading{
+     background-color: #2874f0;
+     height: 56px;
+     position: sticky;
+     top: 0px;
+     z-index: 2;
+ }
+
+ .nav_container{
+     align-items: center;
+     max-width: 1248px;
+     width: 100%;
+     margin: auto;
+     position: relative;
+     left: 51px;
+ }
+
+ .logo{
+     flex-direction: column;
+     width: fit-content;
+     
+ }
+ .flipkart_logo img{
+     width: 75px;
+ }
+ .explore{
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    color: #f0f0f0;
+ }
+ .btn-search:hover{
+    text-decoration: underline;
+ }
+ .plus_lang {
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+ }
+
+ .plus img{
+     width: 11px;
+ }
+
+ .search_bar_con{
+    min-width: 304px;
+    width: 708px;
+    
+ }
+ .search_bar{
+     max-width: 564px;
+     width: 100%;
+    height: 100%;
+    margin: 0 auto 0 12px;
+    box-shadow: 0px 2px 4px 0 rgb(0 0 0 /23%);
+    align-items: center;
+ }
+
+ 
+ .search_box{ 
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+
+ }
+
+ .btn-search{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 4px 12px 0px 8px;
+    width: 44px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 0px 2px 2px 0px;
+    color: #2874f0;
+    justify-content: flex-end;
+    font-size: 19px;
+    
+
+ }
+ .login{
+    position: relative;
+    left: 20px;
+     margin-left: -30px;
+ }
+
+ .login_button{
+    color: #2874f0;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    background: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    height: 32px;
+    padding: 5px 38px;
+    font-weight: 500;
+    margin: 0px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+ }
+
+ .more , .cart{
+     position: relative;
+     left: 35px;
+ }
+ .more_lan , .cart_lan{
+     color: white;
+     font-weight: 500;
+     margin: 0px 20px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ .heading_categories{
+    background: #fff;
+    justify-content: center;
+    min-height: 112px;
+    border-bottom: 2px solid lightgray ;
+
+ }
+ .heading_ca_li{
+     list-style: none;
+     max-width: 1248px;
+     justify-content: space-between;
+     width: 100;
+ }
+
+ .heading_items{
+     padding: 12px 8px;
+     cursor: pointer;
+     text-align: center;
+ }
+ .h_items_name:hover{
+     color: #2874f0;
+
+ }
+ .catalogue_img{
+     height: 64px;
+     width: 64px;
+     margin-bottom: 3px;
+ }
+
+ .h_items_name{
+     font-size: 14px;
+     font-weight: 500;
+ }
+
+ .heading_items:first-child{
+     padding-left: 22px;
+
+ }
+ .heading_items:last-child{
+    padding-left: 22px;
+
+}
+
+.pointer{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
+    left: 50%;
+}
+
+
+.login_dropdown , .more_dd{
+    position: relative;
+    top: 12px;
+
+}
+
+.more_dd{
+    right: 40px;
+}
+
+.login_dd_lst , .more_dd_list{
+    position: absolute;
+    list-style: none;
+    background: #fff;
+    width: max-content;
+    box-shadow: 0 4px 16px 0 rgb(0 0 0 /20%);
+    min-width: 240px;
+    transform: translate(-30px);
+}
+
+.dd_li , .more_dd_li{
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dd_li:last-child , .more_dd_li:last-child{
+    border-bottom: none;
+
+}
+
+.dd_li:first-child{
+    padding: 12px;
+
+}
+
+.dd_li:first-child:hover{
+    background: #fff;
+
+}
+
+.dd_li:hover , .more_dd_li:hover{
+    background: #fafafa;
+
+}
+
+.new_customer{
+    font-weight: bold;
+}
+
+.sign_li{
+    justify-content: space-between;
+    font-size: 14px;
+
+}
+.signup{
+    text-decoration: none;
+    color: #2874f0;
+}
+
+.more:hover .more_lan{
+    position: relative;
+    top: 10px;
+}
+
+.more_ptr{
+    left: 80%;
+}
+
+.more_icon{
+    width: 25px;
+    color: #2874f0;
+}
+
+.login:hover .login_dropdown , .more:hover .more_dd{
+    display: block;
+}
+
+.nav_btn{
+    position: absolute;
+}
+.corouselbtn{
+    position: relative;
+    border-radius: 0px 4px 4px 0px;
+    font-size: 40px;
+    background: hsla(0, 0%, 100%, .98);
+    width: 48px;
+    height: 104px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 /11%);
+    cursor: pointer;
+    top: 90px;
+}
+
+.prev_btn{
+    left: 0;
+    margin-left: 8px;
+}
+.next_prev{
+    font-weight: bold;
+
+}
+
+.corousel_1{
+    border-radius: 4px 0px 0px 4px;
+}
+
+.next_btn{
+    right: 0;
+    margin-right: 8px;
+}
+
+.corousel_item_con{
+    margin: auto;
+    max-width: 1608px;
+    min-width: 978px;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.corousel_items{
+    width: 100%;
+}
+
+.corousel_img{
+    width: 100%;
+    height: 280px;
+    padding: 8px;
+}
+
+
+
+
+     
